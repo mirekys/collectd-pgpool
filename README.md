@@ -12,8 +12,6 @@
         ModulePath "/../../collectd-plugins/"
         LogTraces false
         Interactive false
-        Import ""
-
         Import 'pgpool'
         <Module pgpool>
                 Hostname "localhost"
